@@ -111,6 +111,9 @@ public:
 	USoundBase* RunSound;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio", meta = (AllowPrivateAccess = "true"))
+	USoundBase* CrawlSound;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio", meta = (AllowPrivateAccess = "true"))
 	USoundBase* AttackSound;
 
 private:

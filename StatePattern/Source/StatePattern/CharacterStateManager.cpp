@@ -25,7 +25,7 @@ void ACharacterStateManager::InitializeStates(AStatePatternCharacter* InCharacte
     RunState->InitializeAsset(Character->RunAnimation, Character->RunSound);
     CrawlState = NewObject<UCrawlState>(this);
     CrawlState->InitializeState(Character);
-    CrawlState->InitializeAsset(Character->CrawlAnimation, Character->WalkSound);
+    CrawlState->InitializeAsset(Character->CrawlAnimation, Character->CrawlSound);
     AttackState = NewObject<UAttackState>(this);
     AttackState->InitializeState(Character);
     AttackState->InitializeAsset(Character->AttackAnimation, Character->AttackSound);
